@@ -29,7 +29,7 @@ module.exports = {
             objData.push(obj)
         }
     }
-    console.log(objData)
+    // console.log(objData)
     return queryInterface.bulkInsert('Addresses', objData);
   },
   down: (queryInterface, Sequelize) => {
